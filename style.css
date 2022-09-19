@@ -1,0 +1,78 @@
+header{
+    background: url("imagenes\ sprint\ 1/banner.jpg");
+    padding: 37px;
+}
+h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-size: 27px;
+}
+.logoalura{
+    margin: 0 8px;
+}
+main{
+    display: flex;
+    width: 940px;
+    margin: 0 auto;
+}
+.texto-area{
+    position: relative;
+    right: 10px;
+    left: 7px;
+    top: 30px;
+    resize: none;
+    border: none;
+}
+.texto-area:hover{
+    transition: 3s border;
+}
+.botones{
+    position: relative;
+    bottom: 20px;
+    left: 26%;
+}
+.botones button{
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: darkslateblue;
+    font-size: 18px;
+    color: white;
+    font-weight: bold;
+    transition: 0.5s all;
+}
+.botones button:hover{
+    background: darkorange;
+    transform: scale(1.05);
+}
+.mensaje-final{
+    resize: none;
+    position: relative;
+    left: 60px;
+    margin: 0 10%;
+    margin-top: 3.2%;
+    background-image: url("imagenes\ sprint\ 1/diamod.png");
+    background-repeat: no-repeat;
+    background-position: 50%;
+    background-position-y: 116px;
+    border: 2px solid darkorchid;
+    border-radius: 10px;
+}
+.butt-copiar{
+    position: relative;
+    bottom: 50px;
+    left: 70px;
+    width: 30%;
+    padding: 10px 5px;
+    margin: 0% 38%;
+    transition: 0.5s all;
+    background-color: darkorange;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+}
+.butt-copiar:hover{
+    transform: scale(1.05);
+    background-color: darkslateblue;
+}
