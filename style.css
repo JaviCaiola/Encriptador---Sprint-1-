@@ -1,6 +1,13 @@
 header{
+    display: flex;
     background: url("imagenes\ sprint\ 1/banner.jpg");
     padding: 37px;
+}
+.redes{
+    display: flex;
+    position: relative;
+    left: 50%;
+    top: 4px;
 }
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
