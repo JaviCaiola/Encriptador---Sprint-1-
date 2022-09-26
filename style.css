@@ -9,6 +9,9 @@ header{
     left: 50%;
     top: 4px;
 }
+.redes a{
+    margin: 0 6px;
+}
 h1{
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
