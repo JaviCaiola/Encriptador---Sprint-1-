@@ -1,19 +1,22 @@
+body{
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+}
 header{
     display: flex;
     background: url("imagenes\ sprint\ 1/banner.jpg");
-    padding: 37px;
+    padding: 35px;
 }
 .redes{
     display: flex;
     position: relative;
-    left: 50%;
+    left: 52%;
     top: 4px;
 }
 .redes a{
-    margin: 0 6px;
+    margin: 0 10%;
 }
 h1{
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     color: white;
     font-size: 27px;
 }
@@ -32,21 +35,23 @@ main{
     top: 30px;
     resize: none;
     border: none;
+    outline: none;
+    font-size: 23px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
-.texto-area:hover{
-    transition: 3s border;
-}
+
 .botones{
     position: relative;
     bottom: 20px;
-    left: 26%;
+    left: 22%;
 }
 .botones button{
     padding: 10px;
     border: none;
     border-radius: 5px;
     background: darkslateblue;
-    font-size: 18px;
+    font-size: 20px;
     color: white;
     font-weight: bold;
     transition: 0.5s all;
@@ -61,12 +66,26 @@ main{
     left: 60px;
     margin: 0 10%;
     margin-top: 3.2%;
-    background-image: url("imagenes\ sprint\ 1/diamod.png");
+    background-image: url(imagenes\ sprint\ 1/super.webp);
     background-repeat: no-repeat;
+    background-size: 70%;
     background-position: 50%;
-    background-position-y: 116px;
+    background-position-y: 100px;
     border: 2px solid darkorchid;
     border-radius: 10px;
+    outline: none;
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    line-height: 124%;
+}
+.mensaje-final::placeholder{
+    color: black;
+    font-size: 20px;
+    text-orientation: 40%;
+    line-height: 140px;
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+    font-family: 'Quicksand', sans-serif;
 }
 .butt-copiar{
     position: relative;

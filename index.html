@@ -7,20 +7,23 @@
     <title>Encriptador - Desafio Alura</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style.css">
-    <script src="index.js" defer></script> 
+    <script src="index.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Arabic&family=Quicksand:wght@500&display=swap" rel="stylesheet">
 </head>
 <body>
     <header>
         <h1>Sprint 01 Alura - Encriptador</h1>
         <ul class="redes">
-            <a href="https://github.com/JaviCaiola/Encriptador---Sprint-1-" class="gith">hola</a>
-            <a href="https://www.linkedin.com/in/javier-canchi-3aa612245" class="linkedin"></a>
+            <a href="https://github.com/JaviCaiola/Encriptador---Sprint-1-" class="gith"><img src="imagenes sprint 1/GitHub-Mark-Light-32px.png"></a>
+            <a href="https://www.linkedin.com/in/javier-canchi-3aa612245" class="linkedin"><img src="imagenes sprint 1/In-White-34-┬«.png"></a>
         </ul>
     </header>
 
     <main>
         <section class="seccion1">
-            <textarea cols="60" rows="22" id="mensaje" class="texto-area" placeholder="Escribe tu mensaje aqui"></textarea>
+            <textarea cols="43" rows="12.3" id="mensaje" class="texto-area" placeholder="Escribe tu mensaje aqui"></textarea>
             <div class="botones">
                 <button class="buttencriptar" id="butt-encript" onclick="botonEncript()">Encriptar</button>
                 <button class="buttdesencriptar" id="butt-descript" onclick="botonDesencript()">Desencriptar</button>
@@ -28,13 +31,12 @@
         </section>
 
         <section>
-                <textarea class="mensaje-final" cols="46" rows="24"></textarea>
+                <textarea class="mensaje-final" cols="25" rows="12" placeholder="Todavia no Encriptaste nada..." disabled></textarea>
                 <button class="butt-copiar" id="butt-copy">Copiar</button>
         </section>
     </main>
 
     <footer>
-
     </footer>
     
 </body>
