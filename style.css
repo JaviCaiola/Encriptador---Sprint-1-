@@ -107,17 +107,34 @@ main{
     background-color: darkslateblue;
 }
 @media screen and (max-width:480px){
-    header .texto-area .mensaje-final{
-        width: 100%;
+    header{
+        width: 480px;
         margin: 0;
-        padding: 0;
+    }
+    .redes{
+        left: 5px;
     }
     main{
         display: block;
         width: 480px;
+        margin: 0;
+    }
+    .seccion1{
+        width: 480px;
+    }
+    .texto-area{
+        width: 480px;
+    }
+    .botones{
+        display: inline;
+        width: 395px;
     }
     .mensaje{
         display: flexbox;
+    }
+    .mensaje-final{
+        margin: 0;
+        left: 120px;
     }
     .mensajecript{
         position: relative;
