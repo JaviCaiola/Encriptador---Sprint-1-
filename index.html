@@ -23,21 +23,19 @@
 
     <main>
         <section class="seccion1">
-            <textarea cols="43" rows="12.3" id="mensaje" class="texto-area" placeholder="Escribe tu mensaje aqui"></textarea>
+            <textarea cols="43" rows="12.3" id="mensaje" class="texto-area" placeholder="Escribe tu mensaje aqui solo con Minusculas"></textarea>
+            
             <div class="botones">
                 <button class="buttencriptar" id="butt-encript" onclick="botonEncript()">Encriptar</button>
                 <button class="buttdesencriptar" id="butt-descript" onclick="botonDesencript()">Desencriptar</button>
             </div>
         </section>
 
-        <section>
+        <section class="mensajecript">
                 <textarea class="mensaje-final" cols="25" rows="12" placeholder="Todavia no Encriptaste nada..." disabled></textarea>
-                <button class="butt-copiar" id="butt-copy">Copiar</button>
+                <button class="butt-copiar" id="butt-copy" onclick="copiar()">Copiar</button>
         </section>
     </main>
-
-    <footer>
-    </footer>
-    
+  
 </body>
 </html>

@@ -66,6 +66,7 @@ main{
     left: 60px;
     margin: 0 10%;
     margin-top: 3.2%;
+    background-color: white;
     background-image: url(imagenes\ sprint\ 1/super.webp);
     background-repeat: no-repeat;
     background-size: 70%;
@@ -104,4 +105,25 @@ main{
 .butt-copiar:hover{
     transform: scale(1.05);
     background-color: darkslateblue;
+}
+@media screen and (max-width:480px){
+    header .texto-area .mensaje-final{
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    main{
+        display: block;
+        width: 480px;
+    }
+    .mensaje{
+        display: flexbox;
+    }
+    .mensajecript{
+        position: relative;
+        right: 73px;
+    }
+    .butt-copiar{
+        left: 30px;
+    }
 }

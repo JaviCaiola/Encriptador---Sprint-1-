@@ -1,5 +1,6 @@
-const mensajeRecibido = document.querySelector(".texto-area")
-const mensajeEncriptado = document.querySelector(".mensaje-final")
+const mensajeRecibido = document.querySelector(".texto-area");
+const mensajeEncriptado = document.querySelector(".mensaje-final");
+
 
 function botonEncript() {
     const textoEncript = encriptarMensaje(mensajeRecibido.value);
@@ -36,4 +37,10 @@ function desencriptarMensaje(msjdesEncript){
         }
     }
     return msjdesEncript;
+}
+
+function copiar() {
+    let textosecreto = mensajeEncriptado.value;
+    navigator.clipboard.writeText(textosecreto)
+    mensajeEncriptado.value = "";
 }
